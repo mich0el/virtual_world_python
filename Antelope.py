@@ -1,8 +1,8 @@
 import random
 from Animal import Animal
 
-class Antelope(Animal):
 
+class Antelope(Animal):
     def __init__(self, posX, posY, world):
         super().__init__()
         self.myColor = (255, 204, 153)
