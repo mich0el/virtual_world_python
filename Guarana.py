@@ -1,7 +1,7 @@
 from Plant import Plant
 
-class Guarana(Plant):
 
+class Guarana(Plant):
     def __init__(self, posX, posY, world):
         super().__init__()
         self.myColor = (119, 255, 247)
