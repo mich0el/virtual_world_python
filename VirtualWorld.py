@@ -13,7 +13,6 @@ from Sonchus import Sonchus
 from Turtle import Turtle
 from Wolf import Wolf
 from World import World
-
 from OrganismFactory import OrganismFactory
 from tkinter import *
 
@@ -26,8 +25,7 @@ class GUI(Frame):
         Frame.__init__(self, master, width=270)
         self.grid()
 
-        master.title("Mikhail Lanchytski 172142")
-
+        master.title("Virtual World by Michal Leczycki")
         self.errorLabel = Label(master, text="VIRTUAL WORLD\nNEW GAME")
         self.errorLabel.grid()
 
@@ -65,7 +63,6 @@ class GUI(Frame):
         self.newBoardBtn.grid()
         self.savedBoardBtn = Button(master, text="Load game from file", command=savedBoardAct)
         self.savedBoardBtn.grid()
-
 
 guiFrame = GUI()
 guiFrame.mainloop()
