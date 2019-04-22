@@ -1,8 +1,8 @@
 import random
 from Sheep import Sheep
 
-class CyberSheep(Sheep):
 
+class CyberSheep(Sheep):
     def __init__(self, posX, posY, world):
         super().__init__(posX, posY, world)
         self.myColor = (0, 0, 255)
