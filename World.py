@@ -153,7 +153,7 @@ class World:
 
     def gameStarter(self):
         self.screen = pygame.display.set_mode((self.SQUARE_SIZE * self.__sizeX + self.COMMENTS_FIELD, self.SQUARE_SIZE * self.__sizeY))
-        pygame.display.set_caption('Mikhail Lanchytski 172142')
+        pygame.display.set_caption('Virtual world by Michal Leczycki')
         self.screen.fill((192, 192, 192))
         running = True
         self.drawTheWorld()
