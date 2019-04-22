@@ -17,7 +17,6 @@ class Organism(ABC):
     def defenced(self, enemyObject):
         pass
 
-
     def drawing(self):
         x0, y0 = self.getPosX() * self._world.SQUARE_SIZE, self.getPosY() * self._world.SQUARE_SIZE
         x1, y1 = x0 + self._world.SQUARE_SIZE, y0 + self._world.SQUARE_SIZE
