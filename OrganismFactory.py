@@ -11,8 +11,8 @@ from Turtle import Turtle
 from Wolf import Wolf
 from CyberSheep import CyberSheep
 
-class OrganismFactory:
-    
+
+class OrganismFactory:    
     def createNewOrganism(self, code, posX, posY, world):
         if (code == 0 or code == 'F'):
             return Fox(posX, posY, world)
