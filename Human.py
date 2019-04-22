@@ -1,8 +1,8 @@
 import random
 from Animal import Animal
 
-class Human(Animal):
 
+class Human(Animal):
     def __init__(self, posX, posY, world):
         super().__init__()
         self.__specialAbilityMoves = 0
