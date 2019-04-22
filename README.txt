@@ -1,4 +1,5 @@
 If you want to use it, you need to install "Pygame" on your machine.
+Board save file is "1.txt".
 
 Short game description:
 player:
