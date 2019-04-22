@@ -1,8 +1,8 @@
 import random
 from Organism import Organism
 
-class Animal(Organism):
 
+class Animal(Organism):
     def __init__(self):
         self._moveLength = 1
         self._justBorn = False
@@ -285,8 +285,6 @@ class Animal(Organism):
         if (self._world.getBoard()[y][x] == None):
             return True
         return False
-
-
 
     def addNewAnimal(self, type, x, y):
         newAnimal = self._world.returnMyBrother(type, x, y)
