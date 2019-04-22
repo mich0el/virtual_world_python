@@ -1,7 +1,7 @@
 from Plant import Plant
 
-class Grass(Plant):
 
+class Grass(Plant):
     def __init__(self, posX, posY, world):
         super().__init__()
         self.myColor = (91, 255, 91)
