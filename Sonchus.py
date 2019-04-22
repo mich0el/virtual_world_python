@@ -1,7 +1,7 @@
 from Plant import Plant
 
-class Sonchus(Plant):
 
+class Sonchus(Plant):
     def __init__(self, posX, posY, world):
         super().__init__()
         self.myColor = (255, 255, 51)
