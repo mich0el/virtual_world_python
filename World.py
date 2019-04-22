@@ -5,6 +5,7 @@ from tkinter import *
 from OrganismFactory import OrganismFactory
 pygame.init()
 
+
 class World:
     SQUARE_SIZE = 20
     COMMENTS_FIELD = 250
@@ -90,7 +91,7 @@ class World:
                 self.board[element.getPosY()][element.getPosX()] = element
 
         self.gameStarter()
-
+        
 
     def drawTheWorld(self):
         for y in range(0, self.__sizeY):
@@ -136,6 +137,7 @@ class World:
             self.commentList.pop(i)
         pygame.display.flip()
 
+        
     def nextRound(self):
         for i in range(0, len(self.listOfOrganisms)):
             if (i < len(self.listOfOrganisms)):
