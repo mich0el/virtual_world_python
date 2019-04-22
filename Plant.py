@@ -3,7 +3,6 @@ from Organism import Organism
 
 
 class Plant(Organism):
-
     def __init__(self):
         self.setInitiative(0)
         self._justBorn = False
