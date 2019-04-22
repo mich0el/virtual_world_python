@@ -1,8 +1,8 @@
 import random
 from Animal import Animal
 
-class Fox(Animal):
 
+class Fox(Animal):
     def __init__(self, posX, posY, world):
         super().__init__()
         self.myColor = (255, 128, 0)
@@ -14,10 +14,8 @@ class Fox(Animal):
         self.setInitiative(7)
 
     def newCoordinates(self):
-
         newPosX = self.getPosX()
         newPosY = self.getPosY()
-
         moveTo = random.randint(0,3)
 
         if (moveTo == 0): #up
