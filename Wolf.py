@@ -1,7 +1,7 @@
 from Animal import Animal
 
-class Wolf(Animal):
 
+class Wolf(Animal):
     def __init__(self, posX, posY, world):
         super().__init__()
         self.myColor = (95, 95, 95)
