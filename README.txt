@@ -1,5 +1,6 @@
 If you want to use it, you need to install "Pygame" on your machine.
 Board save file is "1.txt".
+If you want to play this game just run "VirtualWorld.py".
 
 Short game description:
 player:
